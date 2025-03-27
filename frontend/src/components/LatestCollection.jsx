@@ -13,7 +13,7 @@ const LatestCollection = () => {
     },[products])
 
   return (
-    <div className='my-10 '>
+    <div className='my-10 px-20'>
         <div className='text-center py-8 text-2xl'>
             <Title text1='New' text2='Arrivals' />
             <p className='w-2/3 m-auto text-sm sm:text-sm text-gray-700 md:text-base'>

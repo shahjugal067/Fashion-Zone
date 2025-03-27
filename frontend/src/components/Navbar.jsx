@@ -34,7 +34,7 @@ const Navbar = () => {
     setCartItems({});
   };
   return (
-    <div className="px-6 flex items-center justify-between py-5 bg-black/50 ">
+    <div className="px-10 flex items-center justify-between py-2 bg-black/50 ">
       <Link to={"/"}>
         <img src="src/assets/logo1.png" width={100} alt="" />
       </Link>

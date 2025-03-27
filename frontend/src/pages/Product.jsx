@@ -25,7 +25,7 @@ const Product = () => {
     fetchProductData();
   },[productId])
   return productData ? (
-      <div className='border-t pt-10 transition-opacity ease-in duration-500 opacity-100'>
+      <div className='border-t pt-10 transition-opacity ease-in duration-500 opacity-100 px-20'>
         {/* product data is heer  */}
         <div className='flex gap-12 sm:gap-12 flex-col sm:flex-row'>
 

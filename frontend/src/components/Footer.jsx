@@ -3,7 +3,7 @@ import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900/90 text-white py-10">
+    <footer className="bg-black/80 text-white py-4 mr-0">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-6 px-4">
                 <div>
                     <h4 className="text-lg font-semibold mb-3">Company</h4>
@@ -49,8 +49,8 @@ const Footer = () => {
                     <h4 className="text-lg font-semibold mb-3">Newsletter</h4>
                     <p className="text-sm mb-2">Subscribe to get the latest updates and offers.</p>
                     <form action="#" method="post" className="flex">
-                        <input type="email" placeholder="Enter your email" className="p-2 flex-grow text-black" required />
-                        <button type="submit" className="bg-blue-500 p-2 text-white">Subscribe</button>
+                        <input type="email" placeholder="Enter your email" className="p-2 flex-grow text-white border border-amber-400 outline-none" required />
+                        <button type="submit" className="bg-red-500 p-2 text-white">Subscribe</button>
                     </form>
                 </div>
             </div>

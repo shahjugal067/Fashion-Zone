@@ -14,7 +14,7 @@ const BestSeller = () => {
 
     console.log(products)
   return (
-    <div className='my-10'>
+    <div className='my-10 px-20'>
         <div className='text-center text-3xl py-8'>
             <Title text1='Top' text2='Seller' />
             <p className='text-sm text-gray-700 m-auto sm:text-sm md:text-base w-3/4'>
