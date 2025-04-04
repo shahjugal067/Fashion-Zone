@@ -26,7 +26,7 @@ const SearchBar = () => {
          py-1  rounded-full'>
             <input value={search} onChange={(e)=> setSearch(e.target.value)}
             type="text" placeholder='Search ...' className=' ml-2 outline-none bg-inherit text-sm' />
-            <SearchIcon className='w-5 h-5 mr-2 hover:text-yellow-600 cursor-pointer'/>
+            
         </div>
         {/* <IoIosClose onClick={()=> setShowSearch(false)} className='inline w-6 h-6 cursor-pointer hover:text-red-400' /> */}
     </div>

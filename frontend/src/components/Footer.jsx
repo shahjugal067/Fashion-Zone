@@ -1,10 +1,11 @@
 import React from 'react'
 import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-black/80 text-white py-4 mr-0">
-            <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-6 px-4">
+    <footer className="bg-black/80 text-white py-2 mr-0">
+            <div className="container mx-auto grid grid-cols-1 md:grid-cols-5">
                 <div>
                     <h4 className="text-lg font-semibold mb-3">Company</h4>
                     <ul>
@@ -18,7 +19,7 @@ const Footer = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-3">Customer Service</h4>
                     <ul>
-                        <li><a href="/help" className="hover:underline">Help Center</a></li>
+                        <li><a href="/helpcenter" className="hover:underline">Help Center</a></li>
                         <li><a href="/shipping" className="hover:underline">Shipping & Delivery</a></li>
                         <li><a href="/returns" className="hover:underline">Returns & Refunds</a></li>
                         <li><a href="/faq" className="hover:underline">FAQs</a></li>
@@ -38,18 +39,19 @@ const Footer = () => {
                 <div>
                     <h4 className="text-lg font-semibold mb-3">Follow Us</h4>
                     <div className="flex space-x-4">
-                        <a href="#" className="hover:text-gray-400"><Facebook /></a>
-                        <a href="#" className="hover:text-gray-400"><Twitter /></a>
-                        <a href="#" className="hover:text-gray-400"><Instagram /></a>
-                        <a href="#" className="hover:text-gray-400"><Youtube /></a>
+                        <a href="https://www.facebook.com/jugalshah143@yahoo.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600"><Facebook /></a>
+                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-green-600"><Twitter /></a>
+                        <a href="https://www.instagram.com/jugal.shah.1293" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-600"><Instagram /></a>
+                        <a href="https://www.youtube.com/@jugalshah-x30" target="_blank" rel="noopener noreferrer" className="hover:text-red-700 text-2xl"><Youtube /></a>
+                         <a href="https://www.linkedin.com/in/jugal-shah-44a6bb157" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-600 text-2xl"><FaGithub/></a>
                     </div>
                 </div>
                 
                 <div>
                     <h4 className="text-lg font-semibold mb-3">Newsletter</h4>
                     <p className="text-sm mb-2">Subscribe to get the latest updates and offers.</p>
-                    <form action="#" method="post" className="flex">
-                        <input type="email" placeholder="Enter your email" className="p-2 flex-grow text-white border border-amber-400 outline-none" required />
+                    <form action="/subscribe" method="post" className="flex">
+                        <input type="email" placeholder="Enter your email" className="p-2 flex-grow w-44 text-white border border-amber-400 outline-none" required />
                         <button type="submit" className="bg-red-500 p-2 text-white">Subscribe</button>
                     </form>
                 </div>

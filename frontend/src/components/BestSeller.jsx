@@ -18,7 +18,7 @@ const BestSeller = () => {
         <div className='text-center text-3xl py-8'>
             <Title text1='Top' text2='Seller' />
             <p className='text-sm text-gray-700 m-auto sm:text-sm md:text-base w-3/4'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.
+            The Must-Haves You Can't Miss! || Get Yours Now!
             </p>
         </div>
         <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4'>

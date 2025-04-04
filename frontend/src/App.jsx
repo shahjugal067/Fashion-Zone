@@ -15,6 +15,10 @@ import SearchBar from './components/SearchBar'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Verify from './pages/Verify'
+import HelpCenter from './components/HelpCenter'
+import Blog from './pages/Blog'
+import MyProfile from './pages/MyProfile'
+import AboutPage from './pages/AboutPage'
 
 const App = () => {
   return (
@@ -26,13 +30,16 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/collection' element={<Collection/>} />
         <Route path='/login' element={<Login/>} />
-        <Route path='/about' element={<About/>} />
+        <Route path='/about' element={<AboutPage/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/product/:productId' element={<Product/>} />
         <Route path='/cart' element={<Cart/>} />
         <Route path='/place-order' element={<PlaceOrder/>} />
         <Route path='/orders' element={<Orders/>} />
         <Route path='/verify' element={<Verify/>} />
+        <Route path='helpcenter' element={<HelpCenter/>} />
+        <Route path='blog' element={<Blog/>} />
+        <Route path='myprofile' element={<MyProfile/>} />
       </Routes>
       <Footer/>
     </div>

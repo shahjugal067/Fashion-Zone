@@ -4,6 +4,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Link } from "react-router-dom";
 
 const slides = [
   { id: 1, src: "src/assets/j1.avif", alt: "Slide 1" },
@@ -50,11 +51,13 @@ const HeroCarousel = () => {
       >
         {slides.map((slide) => (
           <SwiperSlide key={slide.id} >
+            <Link to={`/collection`}>
             <img
               src={slide.src}
               alt={slide.alt}
               className="w-full h-full object-cover"
             />
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

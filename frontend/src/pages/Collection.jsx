@@ -183,7 +183,7 @@ const Collection = () => {
           <Title text1={'All'} text2={'Collections'} />
 
           {/* sorting the product by price low to high  */}
-          <select onChange={(e)=>setSortType(e.target.value)} className='border-2 bg-red-300 text-sm px-2'>
+          <select onChange={(e)=>setSortType(e.target.value)} className='border-2 bg-emerald-300 text-sm px-2'>
             <option value="relavent">Sort by:Relavent</option>
             <option value="low-high">Sort by:Low to High</option>
             <option value="high-low">Sort by:High to Low</option>
